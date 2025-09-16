@@ -47,7 +47,7 @@ var sketch = function(p) {
   var margin = 25;
 
   p.setup = function() {
-    p.createCanvas(600,600);
+    p.createCanvas(p.windowWidth, p.windowHeight);
   };
 
   p.draw = function() {
@@ -154,6 +154,10 @@ var sketch = function(p) {
     if (p.keyCode == p.RIGHT_ARROW) phi += 15;
 
     console.log('freqX: ' + freqX + ', freqY: ' + freqY + ', phi: ' + phi);
+  };
+
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
 };

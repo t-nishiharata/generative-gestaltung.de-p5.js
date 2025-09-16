@@ -38,7 +38,7 @@
 var drawMode = 1;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   noFill();
 }
 
@@ -85,4 +85,8 @@ function keyPressed() {
   // change draw mode
   if (key == '1') drawMode = 1;
   if (key == '2') drawMode = 2;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

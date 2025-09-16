@@ -35,7 +35,7 @@ var sketch = function(p) {
   var links = [];
 
   p.setup = function() {
-    p.createCanvas(200, 200);
+    p.createCanvas(p.windowWidth, p.windowHeight);
 
     p.strokeWeight(4);
   };

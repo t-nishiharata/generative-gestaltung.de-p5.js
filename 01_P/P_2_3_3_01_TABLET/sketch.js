@@ -46,7 +46,7 @@ var counter = 0;
 
 function setup() {
   // use full screen size
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   background(255);
   cursor(CROSS);
 
@@ -109,4 +109,8 @@ function keyPressed() {
 // gamma ramp, non linaer mapping ...
 function gamma(theValue, theGamma) {
   return pow(theValue, theGamma);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

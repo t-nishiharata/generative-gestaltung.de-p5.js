@@ -45,7 +45,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(533, 796);
+  createCanvas(windowWidth, windowHeight);
   textFont('Times');
   textSize(10);
   textAlign(LEFT, CENTER);
@@ -130,4 +130,8 @@ function keyPressed() {
   if (keyCode == RIGHT_ARROW) fontSizeMin += 2;
   if (keyCode == LEFT_ARROW) fontSizeMin -= 2;
   loop();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

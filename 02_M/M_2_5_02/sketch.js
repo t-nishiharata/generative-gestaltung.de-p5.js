@@ -57,7 +57,7 @@ var sketch = function(p) {
   var invertHue = false;
 
   p.setup = function() {
-    p.createCanvas(800, 800);
+    p.createCanvas(p.windowWidth, p.windowHeight);
 
     p.colorMode(p.HSB, 360, 100, 100, 100);
 

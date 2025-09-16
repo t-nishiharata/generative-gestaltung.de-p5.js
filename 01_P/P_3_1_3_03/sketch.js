@@ -151,3 +151,7 @@ function keyReleased() {
   if (key == '3') drawEllipses = !drawEllipses;
   if (key == '4') drawText = !drawText;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

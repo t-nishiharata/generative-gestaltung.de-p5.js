@@ -32,7 +32,7 @@ var y = [];
 var r = [];
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   strokeWeight(0.5);
 
   // first circle
@@ -84,4 +84,8 @@ function draw() {
 
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

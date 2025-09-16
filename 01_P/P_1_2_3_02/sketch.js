@@ -128,3 +128,7 @@ function keyPressed() {
     writeFile([gd.ase.encode(colors)], gd.timestamp(), 'ase');
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

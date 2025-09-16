@@ -68,7 +68,7 @@ var tablet;
 
 function setup() {
   // Please work with a square canvas
-  canvasElement = createCanvas(800, 800);
+  canvasElement = createCanvas(windowWidth, windowHeight);
   cursor(CROSS);
   noFill();
   lineColor = color(0);
@@ -226,4 +226,8 @@ function setupGIF() {
     saveAs(blob, gd.timestamp() + '.gif');
     setupGIF();
   });
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

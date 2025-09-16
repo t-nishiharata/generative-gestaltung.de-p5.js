@@ -165,3 +165,7 @@ function keyReleased() {
     loop();
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

@@ -49,7 +49,7 @@ var sketch = function(p) {
   var connectionRamp = 6;
 
   p.setup = function() {
-    p.createCanvas(800,800);
+    p.createCanvas(p.windowWidth, p.windowHeight);
     p.colorMode(p.RGB, 255, 255, 255, 100);
     p.noFill();
 
@@ -122,6 +122,10 @@ var sketch = function(p) {
     drawLissajous();
 
     console.log('freqX: ' + freqX + ', freqY: ' + freqY + ', phi: ' + phi + ', modFreqX: ' + modFreqX + ', modFreqY: ' + modFreqY);
+  };
+
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
 };

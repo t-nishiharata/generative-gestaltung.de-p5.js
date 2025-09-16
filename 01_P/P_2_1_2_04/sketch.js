@@ -36,7 +36,7 @@ var actRandomSeed = 0;
 var rectSize = 30;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB, 360, 100, 100, 100);
   noStroke();
   fill(192, 100, 64, 60);
@@ -81,4 +81,8 @@ function mousePressed() {
 
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

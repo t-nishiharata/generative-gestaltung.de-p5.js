@@ -93,3 +93,7 @@ function keyReleased() {
   if (key == '3') c = color(87, 35, 129);
   if (key == '4') c = color(197, 0, 123);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

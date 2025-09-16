@@ -56,7 +56,7 @@ var sketch = function(p) {
   var drawMode = 2;
 
   p.setup = function() {
-    p.createCanvas(600,600);
+    p.createCanvas(p.windowWidth, p.windowHeight);
     maxDist = p.sqrt(p.sq(p.width / 2 - 50) + p.sq(p.height / 2 - 50));
   };
 

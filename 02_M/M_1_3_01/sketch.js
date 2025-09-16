@@ -32,7 +32,7 @@
 var sketch = function(p) {
 
   p.setup = function() {
-    p.createCanvas(1024,256);
+    p.createCanvas(p.windowWidth, p.windowHeight);
     p.strokeWeight(1);
     p.strokeJoin(p.ROUND);
   };
@@ -72,6 +72,10 @@ var sketch = function(p) {
 
   p.keyReleased = function(){
     if (p.key == 's' || p.key == 'S') p.saveCanvas(gd.timestamp(), 'png');
+  };
+
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
 };

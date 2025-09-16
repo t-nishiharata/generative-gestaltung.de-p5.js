@@ -128,3 +128,7 @@ function keyReleased() {
   if (key == '2') drawMode = 2;
   if (key == '3') drawMode = 3;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

@@ -99,3 +99,7 @@ function keyReleased(){
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
   if (key == 'f' || key == 'F') recording = !recording;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

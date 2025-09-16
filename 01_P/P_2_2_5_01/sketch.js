@@ -142,3 +142,7 @@ function keyPressed() {
   if (key == '1') showCircle = !showCircle;
   if (key == '2') showLine = !showLine;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

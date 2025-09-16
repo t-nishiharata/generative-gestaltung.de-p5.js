@@ -161,3 +161,7 @@ function keyPressed() {
   if (key == '2') showLine = !showLine;
   if (key == '3') showSVG = !showSVG;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

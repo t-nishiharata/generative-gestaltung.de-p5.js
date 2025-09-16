@@ -50,7 +50,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(windowWidth, windowHeight);
 
   image(img);
   tileWidth = width / tileCountY;
@@ -130,4 +130,8 @@ function keyReleased() {
     tileCountY = 20;
     cropTiles();
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

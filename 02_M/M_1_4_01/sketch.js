@@ -183,3 +183,7 @@ function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
   if (key == ' ') noiseSeed(floor(random(100000)));
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

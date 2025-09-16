@@ -116,6 +116,10 @@ var sketch = function(p) {
     console.log('freq: ' + freq + ', phi: ' + phi + ', modFreq: ' + modFreq);
   };
 
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
+  };
+
 };
 
 var myp5 = new p5(sketch);

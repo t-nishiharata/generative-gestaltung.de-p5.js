@@ -63,7 +63,7 @@ var img;
 
 function setup() {
   // Please work with a square canvas
-  canvasElement = createCanvas(800, 800);
+  canvasElement = createCanvas(windowWidth, windowHeight);
   noCursor();
   noFill();
   lineColor = color(0);
@@ -193,4 +193,8 @@ function setupGIF() {
     saveAs(blob, gd.timestamp() + '.gif');
     setupGIF();
   });
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

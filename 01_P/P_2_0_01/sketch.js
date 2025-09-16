@@ -30,7 +30,7 @@
 'use strict';
 
 function setup() {
-  createCanvas(550, 550);
+  createCanvas(windowWidth, windowHeight);
   strokeCap(SQUARE);
 }
 
@@ -53,4 +53,8 @@ function draw() {
 
 function keyPressed() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

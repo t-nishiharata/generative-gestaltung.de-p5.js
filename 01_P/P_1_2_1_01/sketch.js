@@ -42,7 +42,7 @@ var colors = [];
 var interpolateShortest = true;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
   noStroke();
   shakeColors();
@@ -101,4 +101,8 @@ function keyPressed() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
   if (key == '1') interpolateShortest = true;
   if (key == '2') interpolateShortest = false;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

@@ -35,7 +35,7 @@ var sketch = function(p) {
   var count = 150;
 
   p.setup = function() {
-    p.createCanvas(800,800);
+    p.createCanvas(p.windowWidth, p.windowHeight);
     p.cursor(p.CROSS);
     p.noStroke();
     p.fill(0,130,164);
@@ -68,6 +68,10 @@ var sketch = function(p) {
 
   p.keyReleased = function(){
     if (p.key == 's' || p.key == 'S') p.saveCanvas(gd.timestamp(), 'png');
+  };
+
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
 };

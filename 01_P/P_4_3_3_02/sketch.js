@@ -39,7 +39,7 @@ var maxCounter = 100000;
 var streamReady = false;
 
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(windowWidth, windowHeight);
   background(255);
   video = createCapture(VIDEO, function() {
     streamReady = true;
@@ -135,4 +135,8 @@ function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
   if (key == 'q' || key == 'Q') noLoop();
   if (key == 'w' || key == 'W') loop();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

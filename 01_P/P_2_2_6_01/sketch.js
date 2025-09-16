@@ -160,3 +160,7 @@ function keyPressed() {
   if (key == '1') showPendulum = !showPendulum;
   if (key == '2') showPendulumPath = !showPendulumPath;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

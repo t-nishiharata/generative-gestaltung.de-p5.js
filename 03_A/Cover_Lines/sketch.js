@@ -80,3 +80,7 @@ function setup() {
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

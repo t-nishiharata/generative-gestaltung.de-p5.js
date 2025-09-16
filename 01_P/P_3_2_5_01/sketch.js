@@ -53,7 +53,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1600, 800);
+  createCanvas(windowWidth, windowHeight);
   frameRate(25);
   rectMode(CENTER);
 
@@ -228,3 +228,7 @@ function keyTyped() {
   }
 }
 
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

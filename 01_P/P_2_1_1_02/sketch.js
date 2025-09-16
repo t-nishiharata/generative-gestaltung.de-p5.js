@@ -49,7 +49,7 @@ var alphaLeft = 255;
 var alphaRight = 255;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
 
   actStrokeCap = ROUND;
   colorLeft = color(197, 0, 123, alphaLeft);
@@ -139,4 +139,8 @@ function keyReleased() {
 
 function colorsEqual(col1, col2) {
   return col1.toString() == col2.toString();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

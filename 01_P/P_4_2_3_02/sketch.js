@@ -212,3 +212,7 @@ function setup() {
 
   generateMontage(searchQuery);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

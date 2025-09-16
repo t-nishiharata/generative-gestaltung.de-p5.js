@@ -51,7 +51,7 @@ var sketch = function(p) {
   };
 
   p.setup = function() {
-    p.createCanvas(800,800);
+    p.createCanvas(p.windowWidth, p.windowHeight);
     p.cursor(p.CROSS);
     gridResolutionX = p.round(p.width / tileSize);
     gridResolutionY = p.round(p.height / tileSize);
@@ -123,6 +123,10 @@ var sketch = function(p) {
     if (p.keyCode == p.LEFT_ARROW) octaves--;
     if (p.keyCode == p.RIGHT_ARROW) octaves++;
     if (octaves < 0) octaves = 0;
+  };
+
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
 };

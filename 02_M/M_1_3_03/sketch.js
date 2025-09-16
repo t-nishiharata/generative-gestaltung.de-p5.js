@@ -41,7 +41,7 @@ var sketch = function(p) {
   var noiseMode = 1;
 
   p.setup = function() {
-    p.createCanvas(512,512);
+    p.createCanvas(p.windowWidth, p.windowHeight);
     p.cursor(p.CROSS);
   };
 
@@ -90,6 +90,10 @@ var sketch = function(p) {
     if (p.keyCode == p.LEFT_ARROW) octaves--;
     if (p.keyCode == p.RIGHT_ARROW) octaves++;
     if (octaves < 0) octaves = 0;
+  };
+
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
 };

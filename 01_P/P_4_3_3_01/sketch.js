@@ -45,7 +45,7 @@ var diffusion = 50;
 var streamReady = false;
 
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(windowWidth, windowHeight);
   background(255);
   x = width / 2;
   y = height / 2;
@@ -99,4 +99,8 @@ function keyReleased() {
   if (key == 'w' || key == 'W') loop();
   if (keyCode == UP_ARROW) pointCount = min(pointCount + 1, 30);
   if (keyCode == DOWN_ARROW) pointCount = max(pointCount - 1, 1);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

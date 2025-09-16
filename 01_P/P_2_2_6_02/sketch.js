@@ -190,3 +190,7 @@ function keyPressed() {
   if (key == '+') speed += 0.5;
   if (key == '-') speed -= 0.5;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

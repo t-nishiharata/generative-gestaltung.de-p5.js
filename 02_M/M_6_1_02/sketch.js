@@ -83,6 +83,10 @@ var sketch = function(p) {
     if (p.key == 's' || p.key == 'S') p.saveCanvas(gd.timestamp(), 'png');
   };
 
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
+  };
+
 };
 
 var myp5 = new p5(sketch);

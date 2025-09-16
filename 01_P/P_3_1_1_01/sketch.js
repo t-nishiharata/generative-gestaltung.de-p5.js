@@ -44,7 +44,7 @@ var tracking = 0; // between letters
 var font;
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(windowWidth, windowHeight);
 
   font = 'Arial';
 
@@ -115,4 +115,8 @@ function keyTyped() {
   }
   // reset timer
   pMillis = millis();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

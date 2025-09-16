@@ -44,7 +44,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   noCursor();
   noStroke();
 }
@@ -96,4 +96,8 @@ function keyReleased() {
 
 function setImage(loadedImageFile) {
   img = loadedImageFile;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

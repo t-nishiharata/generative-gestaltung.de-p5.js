@@ -254,3 +254,7 @@ function keyPressed() {
   if (key == '3') showPendulumPath = !showPendulumPath;
   if (key == '4') fillMode = !fillMode;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

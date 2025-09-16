@@ -39,7 +39,7 @@ var actRandomSeed = 0;
 var actStrokeCap;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
 
   actStrokeCap = ROUND;
 }
@@ -80,4 +80,8 @@ function keyReleased() {
   if (key == '1') actStrokeCap = ROUND;
   if (key == '2') actStrokeCap = SQUARE;
   if (key == '3') actStrokeCap = PROJECT;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

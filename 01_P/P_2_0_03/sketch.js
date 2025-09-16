@@ -35,7 +35,7 @@
 var strokeColor;
 
 function setup() {
-  createCanvas(720, 720);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB, 360, 100, 100, 100);
   noFill();
   strokeWeight(2);
@@ -72,4 +72,8 @@ function keyReleased() {
   if (key == '1') strokeColor = color(0, 10);
   if (key == '2') strokeColor = color(192, 100, 64, 10);
   if (key == '3') strokeColor = color(52, 100, 71, 10);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

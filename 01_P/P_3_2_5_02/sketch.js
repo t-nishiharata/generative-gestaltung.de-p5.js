@@ -36,7 +36,7 @@
 var aniLetters;
 
 function setup() {
-  createCanvas(800,800);
+  createCanvas(windowWidth, windowHeight);
   strokeWeight(1);
   strokeCap(ROUND);
 
@@ -959,3 +959,7 @@ function keyTyped() {
   }
 }
 
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

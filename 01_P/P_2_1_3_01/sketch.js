@@ -45,7 +45,7 @@ var endOffset = 0;
 var actRandomSeed = 0;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   tileWidth = width / tileCountX;
   tileHeight = height / tileCountY;
   noFill();
@@ -91,4 +91,8 @@ function mousePressed() {
 
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

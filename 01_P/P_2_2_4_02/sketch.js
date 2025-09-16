@@ -37,7 +37,7 @@ var y2 = [];
 var drawGhosts = false;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
 
   // first circle
   x[0] = width / 2;
@@ -102,4 +102,8 @@ function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
 
   if (key == '1') drawGhosts = !drawGhosts;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

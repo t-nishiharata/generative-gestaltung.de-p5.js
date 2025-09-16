@@ -270,3 +270,7 @@ function keyPressed() {
   if (key == '-') gravity -= 0.001;
   if (key == '+') gravity += 0.001;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

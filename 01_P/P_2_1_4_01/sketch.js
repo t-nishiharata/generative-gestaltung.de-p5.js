@@ -114,3 +114,7 @@ function keyPressed() {
   img.resize(cols, rows);
   img.loadPixels();
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

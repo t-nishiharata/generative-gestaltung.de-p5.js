@@ -30,7 +30,7 @@
 'use strict';
 
 function setup() {
-  createCanvas(720, 720);
+  createCanvas(windowWidth, windowHeight);
   noCursor();
 
   colorMode(HSB, 360, 100, 100);
@@ -47,4 +47,8 @@ function draw() {
 
 function keyPressed() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
