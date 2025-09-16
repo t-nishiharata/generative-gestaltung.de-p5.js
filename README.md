@@ -1,3 +1,8 @@
+Generative Design Code Package 日本語ヘルプ＆全画面動作バージョン
+
+2025.09.16から着手中。
+
+
 Generative Design Code Package (for [P5.js](https://p5js.org/))
 ==================
 Hi! This GitHub repository contains all of the source code for the book [Generative Design: Creative Coding for the Web](http://www.generative-gestaltung.de) with JavaScript in [p5.js](https://p5js.org/). To get started, please follow the intructions in the sections: [Setup](#Setup) and [Running the Sketches](#Running-the-sketches). Enjoy!
