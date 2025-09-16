@@ -80,7 +80,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1024, 768);
+  createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
 
   layer1Items = generateCollageItems(layer1Images, 100, width / 2, height / 2, width, height, 0.1, 0.5, 0, 0);
@@ -136,4 +136,18 @@ function drawCollageItems(layerItems) {
     image(layerItems[i].image, 0, 0);
     pop();
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  
+  // Regenerate collage items for new canvas size
+  layer1Items = generateCollageItems(layer1Images, 100, width / 2, height / 2, width, height, 0.1, 0.5, 0, 0);
+  layer2Items = generateCollageItems(layer2Images, 150, width / 2, height / 2, width, height, 0.1, 0.3, -HALF_PI, HALF_PI);
+  layer3Items = generateCollageItems(layer3Images, 110, width / 2, height / 2, width, height, 0.1, 0.4, 0, 0);
+  
+  clear();
+  drawCollageItems(layer1Items);
+  drawCollageItems(layer2Items);
+  drawCollageItems(layer3Items);
 }

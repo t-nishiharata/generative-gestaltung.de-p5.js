@@ -43,7 +43,7 @@ var stepSize = 30;
 var actRandomSeed = 0;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   noStroke();
   tileWidth = width / tileCountX;
   tileHeight = height / tileCountY;
@@ -85,4 +85,10 @@ function mousePressed() {
 
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  tileWidth = width / tileCountX;
+  tileHeight = height / tileCountY;
 }

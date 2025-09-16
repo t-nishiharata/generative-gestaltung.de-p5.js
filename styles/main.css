@@ -1,9 +1,13 @@
-body {
-  padding: 0;
+/* fullscreen canvas baseline */
+html, body {
   margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* prevent canvas from causing scrollbars */
 }
 
 canvas {
+  display: block;   /* remove extra spacing around canvas */
   vertical-align: top;
   user-select: none;
   -ms-user-select: none;
