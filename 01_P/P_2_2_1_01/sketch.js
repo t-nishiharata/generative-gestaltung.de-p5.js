@@ -93,3 +93,7 @@ function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
   if (keyCode == DELETE || keyCode == BACKSPACE) clear();
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

@@ -43,7 +43,7 @@ var lineLength = 25;
 
 function setup() {
   // use full screen size
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   background(255);
   col = color(random(255), random(255), random(255), random(100));
   x = mouseX;
@@ -96,4 +96,8 @@ function keyPressed() {
   // lineLength ctrls arrowkeys up/down
   if (keyCode == UP_ARROW) lineLength += 5;
   if (keyCode == DOWN_ARROW) lineLength -= 5;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

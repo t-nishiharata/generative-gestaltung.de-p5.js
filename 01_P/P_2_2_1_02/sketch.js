@@ -130,3 +130,7 @@ function keyReleased() {
     diameter = 5;
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

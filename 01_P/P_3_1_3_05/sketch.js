@@ -252,3 +252,7 @@ function keyReleased() {
   if (key == '2') drawColoredLines = !drawColoredLines;
   if (key == '3') drawText = !drawText;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

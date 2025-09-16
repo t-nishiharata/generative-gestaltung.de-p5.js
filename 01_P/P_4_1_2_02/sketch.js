@@ -33,7 +33,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1024, 780);
+  createCanvas(windowWidth, windowHeight);
   image(img, 0, 0);
 }
 
@@ -56,4 +56,8 @@ function keyReleased() {
     clear();
     image(img, 0, 0);
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

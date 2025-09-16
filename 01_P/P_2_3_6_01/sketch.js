@@ -180,3 +180,7 @@ function keyPressed() {
   if (key == 'g' || key == 'G') doDrawGrid = !doDrawGrid;
   if (key == 'd' || key == 'D') isDebugMode = !isDebugMode;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

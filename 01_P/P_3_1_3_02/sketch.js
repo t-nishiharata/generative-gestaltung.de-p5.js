@@ -138,3 +138,7 @@ function keyReleased() {
     drawLetters[index] = !drawLetters[index];
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

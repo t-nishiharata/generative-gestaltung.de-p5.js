@@ -34,7 +34,7 @@ var segmentCount = 360;
 var radius = 300;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   noStroke();
 }
 
@@ -77,4 +77,8 @@ function keyPressed() {
     segmentCount = 6;
     break;
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

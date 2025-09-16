@@ -32,7 +32,7 @@
 'use strict';
 
 function setup() {
-  createCanvas(720, 720);
+  createCanvas(windowWidth, windowHeight);
   noFill();
   background(255);
   strokeWeight(2);
@@ -63,4 +63,8 @@ function draw() {
 function keyReleased() {
   if (keyCode == DELETE || keyCode == BACKSPACE) background(255);
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

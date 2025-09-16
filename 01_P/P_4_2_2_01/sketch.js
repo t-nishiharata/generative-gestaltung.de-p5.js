@@ -45,7 +45,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1024, 1024);
+  createCanvas(windowWidth, windowHeight);
   background(0);
 
   tileWidth = width / tileCountX;
@@ -81,4 +81,8 @@ function draw() {
 
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

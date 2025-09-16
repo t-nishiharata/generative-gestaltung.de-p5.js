@@ -38,7 +38,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(603, 873);
+  createCanvas(windowWidth, windowHeight);
   print(img.width + ' • ' + img.height);
 }
 
@@ -170,4 +170,8 @@ function keyReleased() {
   if (key == '7') drawMode = 7;
   if (key == '8') drawMode = 8;
   if (key == '9') drawMode = 9;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

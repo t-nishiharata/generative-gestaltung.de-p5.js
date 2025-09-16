@@ -35,7 +35,7 @@ var doSave = true;
 var streamReady = false;
 
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(windowWidth, windowHeight);
   cam = createCapture(VIDEO, function() {
     streamReady = true;
   });
@@ -63,4 +63,8 @@ function draw() {
     fill(random(0, 255), random(0, 255), random(0, 255));
     rect(map(interval, 0, intervalTime, 0, width), 0, 5, 5);
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

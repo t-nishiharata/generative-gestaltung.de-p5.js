@@ -97,3 +97,7 @@ function SliderRose(_x, _y){
 
 }
 
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

@@ -35,7 +35,7 @@ var moduleAlpha = 180;
 var maxDistance = 500;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   noFill();
   strokeWeight(3);
   moduleColor = color(0, 0, 0, moduleAlpha);
@@ -60,4 +60,8 @@ function draw() {
 
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

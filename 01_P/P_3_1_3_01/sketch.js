@@ -118,3 +118,7 @@ function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
   if (key == 'a' || key == 'A') drawAlpha = !drawAlpha;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

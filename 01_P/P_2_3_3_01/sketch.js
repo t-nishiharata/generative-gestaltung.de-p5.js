@@ -44,7 +44,7 @@ var counter = 0;
 
 function setup() {
   // use full screen size
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   background(255);
   cursor(CROSS);
 
@@ -95,4 +95,8 @@ function keyPressed() {
   // angleDistortion ctrls arrowkeys up/down
   if (keyCode == UP_ARROW) angleDistortion += 0.1;
   if (keyCode == DOWN_ARROW) angleDistortion -= 0.1;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

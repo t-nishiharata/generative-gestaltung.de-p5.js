@@ -32,7 +32,7 @@ var stepX;
 var stepY;
 
 function setup() {
-  createCanvas(800, 400);
+  createCanvas(windowWidth, windowHeight);
   noStroke();
   colorMode(HSB, width, height, 100);
 }
@@ -51,4 +51,8 @@ function draw() {
 
 function keyPressed() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

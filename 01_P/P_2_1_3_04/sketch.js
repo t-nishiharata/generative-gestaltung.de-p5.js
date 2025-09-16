@@ -121,3 +121,7 @@ function keyReleased() {
   if (keyCode == LEFT_ARROW) tileCountX = max(tileCountX - 1, 1);
   if (keyCode == RIGHT_ARROW) tileCountX += 1;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

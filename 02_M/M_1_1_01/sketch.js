@@ -33,7 +33,7 @@ var sketch = function(p) {
   var actRandomSeed = 42;
 
   p.setup = function() {
-    p.createCanvas(1024, 256);
+    p.createCanvas(p.windowWidth, p.windowHeight);
   };
 
   p.draw = function() {
@@ -70,6 +70,10 @@ var sketch = function(p) {
 
   p.keyReleased = function(){
     if (p.key == 's' || p.key == 'S') p.saveCanvas(gd.timestamp(), 'png');
+  };
+
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
 };

@@ -108,3 +108,7 @@ function keyTyped() {
     loop();
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

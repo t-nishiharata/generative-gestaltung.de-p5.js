@@ -156,3 +156,7 @@ function keyTyped() {
     createLetters();
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

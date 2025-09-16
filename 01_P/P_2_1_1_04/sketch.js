@@ -58,7 +58,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
   // set the current shape to the first in the array
   currentShape = shapes[0];
@@ -117,4 +117,8 @@ function keyReleased() {
   if (keyCode == DOWN_ARROW) shapeSize = max(shapeSize - 5, 5);
   if (keyCode == LEFT_ARROW) shapeAngle += 5;
   if (keyCode == RIGHT_ARROW) shapeAngle -= 5;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

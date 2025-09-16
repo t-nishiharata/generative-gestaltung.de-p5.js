@@ -228,3 +228,7 @@ function keyPressed() {
   if (key == 'v' || key == 'V') activeTileColor = color(273, 73, 51);
   if (key == 'b' || key == 'B') activeTileColor = color(323, 100, 77);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

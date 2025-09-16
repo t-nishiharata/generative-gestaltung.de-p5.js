@@ -58,7 +58,7 @@ function preload() {
 
 function setup() {
   // use full screen size
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   background(255);
   cursor(CROSS);
   x = mouseX;
@@ -114,4 +114,8 @@ function keyPressed() {
   if (keyCode == LEFT_ARROW) stepSize -= 0.5;
   if (keyCode == RIGHT_ARROW) stepSize += 0.5;
   print('moduleSize:', moduleSize, 'stepSize:', stepSize);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

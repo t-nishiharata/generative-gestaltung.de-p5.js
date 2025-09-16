@@ -181,3 +181,7 @@ function keyTyped() {
 function keyPressed() {
   // if (keyCode == RIGHT_ARROW);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

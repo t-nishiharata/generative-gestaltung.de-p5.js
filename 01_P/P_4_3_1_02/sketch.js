@@ -49,7 +49,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 900);
+  createCanvas(windowWidth, windowHeight);
   image(img);
 }
 
@@ -77,4 +77,8 @@ function draw() {
 
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

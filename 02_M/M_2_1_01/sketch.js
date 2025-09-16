@@ -40,7 +40,7 @@ var sketch = function(p) {
   var dodrawAnimation = true;
 
   p.setup = function() {
-    p.createCanvas(800,400);
+    p.createCanvas(p.windowWidth, p.windowHeight);
   };
 
   p.draw = function() {
@@ -133,6 +133,10 @@ var sketch = function(p) {
     if (p.keyCode == p.RIGHT_ARROW) phi += 15;
 
     console.log('freq: ' + freq + ', phi: ' + phi);
+  };
+
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 
 };

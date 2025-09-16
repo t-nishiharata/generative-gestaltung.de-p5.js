@@ -49,7 +49,7 @@ var smoothness = 0;
 var newShape;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   noFill();
   shapeColor = color(0);
 }
@@ -137,4 +137,8 @@ function keyPressed() {
 
   if (keyCode == UP_ARROW) shapeHeight += density;
   if (keyCode == DOWN_ARROW) shapeHeight -= density;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

@@ -54,7 +54,7 @@ var dStroke = 4;
 var drawMode = 1;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB, 360, 100, 100, 100);
   background(360);
 
@@ -134,4 +134,8 @@ function getRandomAngle(currentDirection) {
   if (currentDirection == SOUTH) return a + 90;
   if (currentDirection == WEST) return a + 180;
   return 0;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

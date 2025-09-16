@@ -80,7 +80,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1024, 768);
+  createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
 
   layer1Items = generateCollageItems(layer1Images, 10, 0, height / 2, TAU, height, 0.1, 0.5, 0, 0);
@@ -140,4 +140,8 @@ function drawCollageitems(layerItems) {
     image(layerItems[i].image, 0, 0);
     pop();
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

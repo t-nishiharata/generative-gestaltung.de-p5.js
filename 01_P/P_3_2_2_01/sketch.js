@@ -120,3 +120,7 @@ function keyTyped() {
     textTyped += key;
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

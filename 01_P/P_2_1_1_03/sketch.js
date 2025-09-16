@@ -46,7 +46,7 @@ var transparentLeft = false;
 var transparentRight = false;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB, 360, 100, 100, 100);
 
   colorRight = color(0, 0, 0, alphaRight);
@@ -129,4 +129,8 @@ function keyReleased() {
 
 function colorsEqual(col1, col2) {
   return col1.toString() == col2.toString();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

@@ -503,3 +503,7 @@ function keyTyped() {
   }
 }
 
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

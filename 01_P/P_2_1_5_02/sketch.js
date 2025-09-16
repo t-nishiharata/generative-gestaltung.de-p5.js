@@ -38,7 +38,7 @@ var maxRadius = 250;
 var density = 5;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   noFill();
 
   shapes.push(new Shape(width / 2, height / 2, width));
@@ -70,4 +70,8 @@ function mouseReleased() {
 
 function keyPressed() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

@@ -61,3 +61,7 @@ function keyReleased() {
 function keyTyped() {
   letter = key;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

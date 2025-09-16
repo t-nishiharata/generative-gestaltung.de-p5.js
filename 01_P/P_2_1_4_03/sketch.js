@@ -40,7 +40,7 @@ var sliderMin = 0;
 var sliderMax = 100;
 
 function setup() {
-  createCanvas(800,800);
+  createCanvas(windowWidth, windowHeight);
   // get the number of sliders based on w & h
   sliderWidth = w / 2;
   sliderCount = ceil(sliderWidth / sliderHeight);
@@ -85,3 +85,7 @@ function draw() {
 
 }
 
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

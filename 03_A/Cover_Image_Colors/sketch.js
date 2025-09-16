@@ -40,7 +40,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(512, 512);
+  createCanvas(windowWidth, windowHeight);
   noStroke();
 
   primaryGreen = color(14, 232, 117);
@@ -151,4 +151,8 @@ function whiteToAlpha(col) {
     return color(r, g, b, a);
   }
   return col;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
