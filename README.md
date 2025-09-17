@@ -72,6 +72,13 @@ If you've already followed the instructions in the [Setup](#Setup) section and y
 2. Click on any of the links 🔗 listed to view and interact with the sketches.
 3. Interact, create, save, and share your work! 🌈`#GenerativeGestaltung #generativedesign #p5js`
 
+### iPad / iPhone support
+
+- Most sketches are now optimized for iOS Safari (iPadOS, iPhone). We enabled viewport-fit, safe-area paddings, and prevented unintended page scrolling while interacting with the canvas.
+- For tablet-aware tools using pen pressure (Apple Pencil), we added a fallback that reads pressure via Pointer Events or iOS Touch Events (force). Where available, `pressure` ranges from 0..1.
+- Some older Wacom-plugin specific features are not supported on iOS (Wacom browser plugin no longer works on Safari). Those sketches will still run, but advanced pen metrics from the plugin (e.g. rotation) won’t be available.
+- When saving (`s` key), iOS may not trigger file dialogs as on desktop. Long-press on the resulting image or use iOS Share options where applicable.
+
 
 <sup>1</sup>The default port is `8000`, but you can change the port number by specifying the number after the command `e.g. python -m SimpleHTTPServer 5000`
 

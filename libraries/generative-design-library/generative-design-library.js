@@ -455,26 +455,28 @@ module.exports = Treemap;
  */
 function WacomTablet() {
 	this.penValues = {
-		// wacom
-		isWacom: null,
-		isEraser: null,
-		pressure: null,
-		sysX: null,
-		sysY: null,
-		tabX: null,
-		tabY: null,
-		rotationDeg: null,
-		rotationRad: null,
-		tiltX: null,
-		tiltY: null,
-		tangPressure: null,
-		version: null,
-		pointerType: null,
-		tabletModel: null,
-		// calculated
-		azimuth: null,
-		altitude: null
+    // wacom
+    isWacom: false,
+    isEraser: false,
+    pressure: 0,
+    sysX: 0,
+    sysY: 0,
+    tabX: 0,
+    tabY: 0,
+    rotationDeg: 0,
+    rotationRad: 0,
+    tiltX: 0,
+    tiltY: 0,
+    tangPressure: 0,
+    version: '',
+    pointerType: 'mouse',
+    tabletModel: '',
+    // calculated
+    azimuth: 0,
+    altitude: 0
 	}
+  // iOS/iPadOS/Pointer Events fallback
+  this._setupInputFallback();
 };
 
 // http://jpen.sourceforge.net/api/current/src-html/jpen/PLevel.html
@@ -500,12 +502,74 @@ WacomTablet.prototype._getWacomPlugin = function() {
 	return document.getElementById('wtPlugin');
 };
 
+// Setup pointer/touch listeners to populate penValues when Wacom plugin is unavailable (iOS/iPadOS/mobile)
+WacomTablet.prototype._setupInputFallback = function() {
+  var self = this;
+
+  function updateFromPointer(e) {
+    try {
+      self.penValues.pointerType = e.pointerType || (e.touches ? 'touch' : 'mouse');
+      // Pressure: 0..1 for PointerEvent; approximate if buttons pressed
+      var p = (e.pressure != null) ? e.pressure : (e.buttons ? 0.5 : 0);
+      self.penValues.pressure = p;
+      // Tilt is degrees in PointerEvent spec; convert to radians for internal math
+      var tX = (e.tiltX != null) ? (e.tiltX * Math.PI / 180) : 0;
+      var tY = (e.tiltY != null) ? (e.tiltY * Math.PI / 180) : 0;
+      self.penValues.tiltX = tX;
+      self.penValues.tiltY = tY;
+      self.penValues.sysX = (e.clientX != null) ? e.clientX : null;
+      self.penValues.sysY = (e.clientY != null) ? e.clientY : null;
+
+      var azAlt = self._calcAzimuthXAndAltitude(tX, tY);
+      self.penValues.azimuth = azAlt[0];
+      self.penValues.altitude = azAlt[1];
+    } catch (err) {
+      // noop – best-effort fallback
+    }
+  }
+
+  function updateFromTouch(ev) {
+    try {
+      var e = ev;
+      var t = (e.touches && e.touches[0]) || (e.changedTouches && e.changedTouches[0]);
+      if (!t) return;
+      self.penValues.pointerType = 'touch';
+      // iOS Touch.force is 0..1; if unavailable, assume full contact while touching
+      var f = (t.force != null) ? t.force : 1;
+      self.penValues.pressure = f;
+      self.penValues.sysX = (t.clientX != null) ? t.clientX : null;
+      self.penValues.sysY = (t.clientY != null) ? t.clientY : null;
+    } catch (err) {
+      // noop
+    }
+  }
+
+  // Pointer Events (iPadOS Safari, modern browsers)
+  if (typeof window !== 'undefined') {
+    if ('onpointerdown' in window) {
+      window.addEventListener('pointerdown', updateFromPointer, { passive: true });
+      window.addEventListener('pointermove', updateFromPointer, { passive: true });
+      window.addEventListener('pointerup', updateFromPointer, { passive: true });
+      window.addEventListener('pointercancel', updateFromPointer, { passive: true });
+    }
+    // Touch Events (iOS Safari)
+    if ('ontouchstart' in window || (typeof navigator !== 'undefined' && navigator.maxTouchPoints > 0)) {
+      window.addEventListener('touchstart', updateFromTouch, { passive: true });
+      window.addEventListener('touchmove', updateFromTouch, { passive: true });
+      window.addEventListener('touchend', updateFromTouch, { passive: true });
+      window.addEventListener('touchcancel', updateFromTouch, { passive: true });
+    }
+  }
+};
+
 WacomTablet.prototype._update = function() {
 	var wtPlugin = this._getWacomPlugin();
 
 	// is wacom tablet around?
-	if (!wtPlugin) return this.penValues;
-	if (!wtPlugin.penAPI) return this.penValues;
+	if (!wtPlugin || !wtPlugin.penAPI) {
+		// Fall back to values provided by pointer/touch listeners
+		return this.penValues;
+	}
 
 	this.penValues.isWacom = wtPlugin.penAPI.isWacom;
 	this.penValues.isEraser = wtPlugin.penAPI.isEraser;

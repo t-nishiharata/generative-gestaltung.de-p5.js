@@ -5,6 +5,7 @@
   "scripts": {
     "start": "npm run watch",
     "watch": "budo --host localhost --dir . --open --live --watch-glob '**/*.{html,css,js}'",
+    "watch:lan": "budo --host 0.0.0.0 --dir . --live --watch-glob '**/*.{html,css,js}'",
     "setup": "cd libraries && node setup.js",
     "encapsulate": "cd libraries && node encapsulate.js"
   },
