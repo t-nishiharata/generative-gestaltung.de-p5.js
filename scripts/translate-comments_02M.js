@@ -5,9 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-// const TARGET_DIR = path.join(ROOT, '01_P');
-const targetArg = process.argv[2] || '01_P';
-const TARGET_DIR = path.join(ROOT, targetArg);
+const TARGET_DIR = path.join(ROOT, '01_P');
 
 function walk(dir, filterFn) {
   const results = [];
@@ -41,7 +39,6 @@ function translateLine(line) {
   s = s.replace(/position x\/y/gi, '位置 x/y');
   s = s.replace(/position x/gi, '位置 x');
   s = s.replace(/position y/gi, '位置 y');
-  s = s.replace(/\bclick\b/gi, 'クリック'); // 追加
   s = s.replace(/left click/gi, '左クリック');
   s = s.replace(/right click/gi, '右クリック');
   s = s.replace(/middle click/gi, 'ミドルクリック');
@@ -101,11 +98,6 @@ function translateLine(line) {
   s = s.replace(/increase/gi, '増やす');
   s = s.replace(/decrease/gi, '減らす');
   s = s.replace(/reset/gi, 'リセット');
-  s = s.replace(/new random line/gi, '新しいランダムな線'); // 追加
-
-  // Specific leading sentence seen in 02_M M_1_1_01
-  s = s.replace(/^\s*\*\s*draws a random chart and shows how to use randomSeed\.\s*$/i,
-                ' * ランダムなチャートを描画し、randomSeed の使い方を示します。'); // 追加
 
   // Leading description verbs
   s = s.replace(/^\s*\*\s*changing\s+(.+)/i, ' * $1を変化させます。');
@@ -144,10 +136,6 @@ function processFile(filePath) {
 }
 
 function main() {
-  if (!fs.existsSync(TARGET_DIR)) {
-    console.error(`Target not found: ${TARGET_DIR}`);
-    process.exit(1);
-  }
   const files = walk(TARGET_DIR, p => /sketch\.js$/.test(p));
   const results = [];
   for (const f of files) {

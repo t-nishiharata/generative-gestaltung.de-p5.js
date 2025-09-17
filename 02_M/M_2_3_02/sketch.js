@@ -18,19 +18,19 @@
 // limitations under the License.
 
 /**
- * draws a modulated lissajous curve
+ * a modulated lissajous curveを描画します。
  *
- * MOUSE
- * position x        : number of points
+ * マウス
+ * 位置 x        : number of points
  *
- * KEYS
+ * キー
  * d                 : draw mode
  * 1/2               : frequency x -/+
  * 3/4               : frequency y -/+
- * arrow left/right  : phi -/+
+ * ←/→  : phi -/+
  * 7/8               : modulation frequency x -/+
  * 9/0               : modulation frequency y -/+
- * s                 : save png
+ * s                 : PNG を保存
  */
 'use strict';
 

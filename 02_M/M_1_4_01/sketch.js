@@ -18,21 +18,21 @@
 // limitations under the License.
 
 /**
- * creates a terrain like mesh based on noise values.
+ * a terrain like mesh based on noise values.を作成します。
  *
- * MOUSE
- * position x/y + left drag   : specify noise input range
- * position x/y + right drag  : camera controls
+ * マウス
+ * 位置 x/y + left drag   : specify noise input range
+ * 位置 x/y + right drag  : camera controls
  *
- * KEYS
+ * キー
  * arrow up                   : noise falloff +
  * arrow down                 : noise falloff -
  * arrow left                 : noise octaves -
  * arrow right                : noise octaves +
- * space                      : new noise seed
+ * スペース                      : new noise seed
  * +                          : zoom in
  * -                          : zoom out
- * s                          : save png
+ * s                          : PNG を保存
  */
 
 // ------ mesh ------

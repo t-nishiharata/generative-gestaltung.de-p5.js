@@ -20,8 +20,8 @@
 /**
  * loads an xml asynchronously, thus not disrupting the animation
  *
- * MOUSE
- * left click          : starts loading the xml
+ * マウス
+ * left クリック          : starts loading the xml
  */
 
 'use strict';

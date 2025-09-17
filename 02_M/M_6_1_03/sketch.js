@@ -20,10 +20,10 @@
 /**
  * more nodes and more springs
  *
- * KEYS
- * r             : reset positions
- * s             : save png
- * p             : save pdf
+ * キー
+ * r             : リセット 位置s
+ * s             : PNG を保存
+ * p             : PDF を保存
  */
 
 'use strict';

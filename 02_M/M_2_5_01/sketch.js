@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * draw lissajous figures with all points connected
+ * lissajous figures with all points connectedを描画します。
  *
- * KEYS
+ * キー
  * 1/2               : frequency x -/+
  * 3/4               : frequency y -/+
- * arrow left/right  : phi -/+
+ * ←/→  : phi -/+
  * 7/8               : modulation frequency x -/+
  * 9/0               : modulation frequency y -/+
- * s                 : save png
+ * s                 : PNG を保存
  */
 'use strict';
 

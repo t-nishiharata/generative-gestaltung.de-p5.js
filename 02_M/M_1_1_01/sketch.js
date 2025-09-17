@@ -18,13 +18,13 @@
 // limitations under the License.
 
 /**
- * draws a random chart and shows how to use randomSeed.
+ * ランダムなチャートを描画し、randomSeed の使い方を示します。
  *
- * MOUSE
- * click               : new random line
+ * マウス
+ * クリック               : new random 線
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

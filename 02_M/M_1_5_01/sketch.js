@@ -18,19 +18,19 @@
 // limitations under the License.
 
 /**
- * how to transform noise values into directions (angles) and brightness levels
+ * how to transform noise values into directions (角度s) and brightness levels
  *
- * MOUSE
- * position x/y        : specify noise input range
+ * マウス
+ * 位置 x/y        : specify noise input range
  *
- * KEYS
- * d                   : toogle display brightness circles on/off
+ * キー
+ * d                   : toogle display brightness 円 on/off
  * arrow up            : noise falloff +
  * arrow down          : noise falloff -
  * arrow left          : noise octaves -
  * arrow right         : noise octaves +
- * space               : new noise seed
- * s                   : save png
+ * スペース               : new noise seed
+ * s                   : PNG を保存
  */
 'use strict';
 

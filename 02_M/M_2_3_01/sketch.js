@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * draws an amplitude modulated oscillator
+ * an amplitude modulated oscillatorを描画します。
  *
- * KEYS
- * i                 : toggle draw info signal
- * c                 : toggle draw carrier signal
+ * キー
+ * i                 : 切り替え draw info signal
+ * c                 : 切り替え draw carrier signal
  * 1/2               : info signal frequency -/+
- * arrow left/right  : info signal phi -/+
+ * ←/→  : info signal phi -/+
  * 7/8               : carrier signal frequency -/+ (modulation frequency)
- * s                 : save png
+ * s                 : PNG を保存
  */
 'use strict';
 

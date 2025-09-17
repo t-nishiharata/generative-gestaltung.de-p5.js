@@ -20,11 +20,11 @@
 /**
  * noise values (noise 3d) are used to animate a bunch of agents.
  *
- * KEYS
- * 1                   : draw style line
+ * キー
+ * 1                   : draw style 線
  * 2                   : draw style ellipse
- * backspace           : clear screen
- * s                   : save png
+ * backスペース           : clear screen
+ * s                   : PNG を保存
  */
 'use strict';
 

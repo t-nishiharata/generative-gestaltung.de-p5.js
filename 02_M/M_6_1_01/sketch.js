@@ -20,9 +20,9 @@
 /**
  * distribute nodes on the display by letting them repel each other
  *
- * KEYS
- * r             : reset positions
- * s             : save png
+ * キー
+ * r             : リセット 位置s
+ * s             : PNG を保存
  */
 
 'use strict';

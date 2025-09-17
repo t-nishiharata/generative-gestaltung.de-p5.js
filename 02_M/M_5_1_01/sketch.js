@@ -20,9 +20,9 @@
 /**
  * simple example of a recursive function
  *
- * KEYS
+ * キー
  * 1-9                 : recursion level
- * s                   : save png
+ * s                   : PNG を保存
  */
 'use strict';
 

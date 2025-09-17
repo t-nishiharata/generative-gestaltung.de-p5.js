@@ -19,13 +19,13 @@
 
 /**
  * order vs random!
- * how to interpolate beetween a free composition (random) and a circle shape (order)
+ * how to interpolate beetween a free com位置 (random) and a 円 shape (order)
  *
- * MOUSE
- * position x          : fade between random and circle shape
+ * マウス
+ * 位置 x          : fade between random and 円 shape
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

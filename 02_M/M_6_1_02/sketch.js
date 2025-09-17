@@ -21,11 +21,11 @@
 /**
  * two nodes and a spring
  *
- * MOUSE
- * click, drag   : postion of one of the nodes
+ * マウス
+ * クリック, drag   : postion of one of the nodes
  *
- * KEYS
- * s             : save png
+ * キー
+ * s             : PNG を保存
  */
 
 'use strict';

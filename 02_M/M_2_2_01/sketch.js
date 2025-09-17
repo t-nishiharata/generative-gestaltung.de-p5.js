@@ -18,14 +18,14 @@
 // limitations under the License.
 
 /**
- * draws a lissajous curve
+ * a lissajous curveを描画します。
  *
- * KEYS
- * a                 : toggle oscillation animation
+ * キー
+ * a                 : 切り替え oscillation animation
  * 1/2               : frequency x -/+
  * 3/4               : frequency y -/+
- * arrow left/right  : phi -/+
- * s                 : save png
+ * ←/→  : phi -/+
+ * s                 : PNG を保存
  */
 'use strict';
 

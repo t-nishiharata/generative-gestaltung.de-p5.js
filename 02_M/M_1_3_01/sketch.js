@@ -18,14 +18,14 @@
 // limitations under the License.
 
 /**
- * draws a chart based on noise values.
+ * a chart based on noise values.を描画します。
  *
- * MOUSE
- * position x          : specify noise input range
- * click               : new noise line
+ * マウス
+ * 位置 x          : specify noise input range
+ * クリック               : new noise 線
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

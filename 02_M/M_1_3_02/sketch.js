@@ -18,13 +18,13 @@
 // limitations under the License.
 
 /**
- * creates a texture based on random values
+ * a texture based on random valuesを作成します。
  *
- * MOUSE
- * click               : new noise line
+ * マウス
+ * クリック               : new noise 線
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

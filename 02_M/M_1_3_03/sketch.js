@@ -18,18 +18,18 @@
 // limitations under the License.
 
 /**
- * creates a texture based on noise values
+ * a texture based on noise valuesを作成します。
  *
- * MOUSE
- * position x/y        : specify noise input range
+ * マウス
+ * 位置 x/y        : specify noise input range
  *
- * KEYS
+ * キー
  * 1-2                 : set noise mode
  * arrow up            : noise falloff +
  * arrow down          : noise falloff -
  * arrow left          : noise octaves -
  * arrow right         : noise octaves +
- * s                   : save png
+ * s                   : PNG を保存
  */
 'use strict';
 

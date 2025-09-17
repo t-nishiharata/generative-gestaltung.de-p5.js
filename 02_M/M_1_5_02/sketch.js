@@ -20,11 +20,11 @@
 /**
  * noise values (noise 2d) are used to animate a bunch of agents.
  *
- * KEYS
+ * キー
  * 1-2                 : switch noise mode
- * space               : new noise seed
- * backspace           : clear screen
- * s                   : save png
+ * スペース               : new noise seed
+ * backスペース           : clear screen
+ * s                   : PNG を保存
  */
 
 'use strict';

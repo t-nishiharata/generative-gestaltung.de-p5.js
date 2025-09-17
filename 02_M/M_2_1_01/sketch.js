@@ -18,13 +18,13 @@
 // limitations under the License.
 
 /**
- * draws an oscillator
+ * an oscillatorを描画します。
  *
- * KEYS
- * a                 : toggle oscillation animation
+ * キー
+ * a                 : 切り替え oscillation animation
  * 1/2               : frequency -/+
- * arrow left/right  : phi -/+
- * s                 : save png
+ * ←/→  : phi -/+
+ * s                 : PNG を保存
  */
 'use strict';
 
