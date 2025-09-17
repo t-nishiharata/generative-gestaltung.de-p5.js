@@ -18,20 +18,20 @@
 // limitations under the License.
 
 /**
- * typewriter. uses input (text) as blueprint for a visual composition.
+ * typewriter. uses input (text) as blueprint for a visual com位置.
  *
- * MOUSE
+ * マウス
  * click + drag        : move canvas
  *
- * KEYS
+ * キー
  * a-z                 : text input (keyboard)
  * ,.!? and return     : curves
- * space               : small curve with random direction
- * del, backspace      : remove last letter
+ * スペース               : small curve with random direction
+ * del, backスペース      : remove last letter
  * arrow up            : zoom canvas +
  * arrow down          : zoom canvas -
- * alt                 : new random layout
- * ctrl                : save png
+ * Alt                 : new random layout
+ * Ctrl                : PNG を保存
  */
 'use strict';
 

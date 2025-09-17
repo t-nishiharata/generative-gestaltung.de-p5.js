@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * moving corners of rectangles in a grid
+ * moving corners of 四角形 in a グリッド
  *
- * MOUSE
- * position x          : corner position offset x
- * position y          : corner position offset y
- * left click          : random position
+ * マウス
+ * 位置 x          : corner 位置 オフセット x
+ * 位置 y          : corner 位置 オフセット y
+ * 左クリック          : random 位置
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

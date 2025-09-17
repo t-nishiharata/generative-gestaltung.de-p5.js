@@ -19,19 +19,19 @@
 
 /**
  * form mophing process by connected random agents
- * two forms: circle and line
+ * two forms: 円 and 線
  *
- * MOUSE
+ * マウス
  * click               : start a new circe
- * position x/y        : direction and speed of floating
+ * 位置 x/y        : direction and 速度 of floating
  *
- * KEYS
- * 1-2                 : fill styles
- * 3-4                 : form styles circle/line
- * arrow up/down       : step size +/-
+ * キー
+ * 1-2                 : 塗り styles
+ * 3-4                 : form styles 円/線
+ * ↑/↓       : step サイズ +/-
  * f                   : freeze. loop on/off
- * Delete/Backspace    : clear display
- * s                   : save png
+ * Delete/Backスペース    : clear display
+ * s                   : PNG を保存
  */
 'use strict';
 

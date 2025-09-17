@@ -22,8 +22,8 @@
  * The pixel RGB value is mapped with the nearest (average) RGB value of an emoji.
  * Mapping via a [k-dimensional tree data structure](https://github.com/ubilabs/kd-tree-javascript).
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  * f                   : start/stop recording of frames
  */
 'use strict';

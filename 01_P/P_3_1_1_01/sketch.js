@@ -20,13 +20,13 @@
 /**
  * typewriter. time reactive.
  *
- * MOUSE
- * position y           : adjust spacing (line height)
+ * マウス
+ * 位置 y           : adjust spacing (線 height)
  *
- * KEYS
+ * キー
  * a-z                  : text input (keyboard)
- * backspace/delete     : delete last typed letter
- * ctrl                 : save png
+ * backスペース/Delete     : Delete last typed letter
+ * Ctrl                 : PNG を保存
  */
 'use strict';
 

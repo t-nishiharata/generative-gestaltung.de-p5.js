@@ -18,19 +18,19 @@
 // limitations under the License.
 
 /**
- * Drawing tool for creating moire effect compositions using
+ * Drawing tool for creating moire effect com位置s using
  * smooth path of any length, width, smoothness and colour.
  *
- * MOUSE
- * position x          : path simplification
- * position y          : ribbon width
+ * マウス
+ * 位置 x          : path simplification
+ * 位置 y          : ribbon width
  *
- * KEYS
- * arrow right         : increase path density
- * arrow left          : decrease path density
- * arrow up            : increase font size
- * arrow down          : decrease font size
- * control             : save png
+ * キー
+ * arrow right         : 増やす path 密度
+ * arrow left          : 減らす path 密度
+ * arrow up            : 増やす font サイズ
+ * arrow down          : 減らす font サイズ
+ * control             : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

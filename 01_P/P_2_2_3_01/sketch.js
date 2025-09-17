@@ -20,15 +20,15 @@
 /**
  * form mophing process by connected random agents
  *
- * MOUSE
+ * マウス
  * click               : start a new circe
- * position x/y        : direction of floating
+ * 位置 x/y        : direction of floating
  *
- * KEYS
- * 1-2                 : fill styles
+ * キー
+ * 1-2                 : 塗り styles
  * f                   : freeze. loop on/off
- * Delete/Backspace    : clear display
- * s                   : save png
+ * Delete/Backスペース    : clear display
+ * s                   : PNG を保存
  */
 'use strict';
 

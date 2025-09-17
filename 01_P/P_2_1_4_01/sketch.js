@@ -18,11 +18,11 @@
 // limitations under the License.
 
 /**
-* Use an image to check on/off a grid of checkboxes
+* Use an image to check on/off a グリッド of checkboxes
 * Shout out to Dan Shiffman's checkbox mirror example
 * Image credits: Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.
 *
-* KEYS
+* キー
 * 1                   : load image shapes
 * 2                   : load image letters
 * 3                   : load image map

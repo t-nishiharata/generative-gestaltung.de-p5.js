@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * changing positions of stapled circles in a grid
+ * 位置s of stapled 円 in a グリッドを変化させます。
  *
- * MOUSE
- * position x          : horizontal position shift
- * position y          : vertical position shift
- * left click          : random position shift
+ * マウス
+ * 位置 x          : horizontal 位置 Shift
+ * 位置 y          : vertical 位置 Shift
+ * 左クリック          : random 位置 Shift
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

@@ -18,18 +18,18 @@
 // limitations under the License.
 
 /**
- * shapes in a grid, that are always facing the mouse
+ * shapes in a グリッド, that are always facing the mouse
  *
- * MOUSE
- * position x/y        : position to face
+ * マウス
+ * 位置 x/y        : 位置 to face
  *
- * KEYS
+ * キー
  * 1-7                 : choose shapes
- * arrow up/down       : scale of shapes
- * arrow left/right    : additional rotation of shapes
- * d                   : toggle size depending on distance
- * g                   : toggle grid resolution
- * s                   : save png
+ * ↑/↓       : スケール of shapes
+ * ←/→    : additional 回転 of shapes
+ * d                   : 切り替え サイズ depending on distance
+ * g                   : 切り替え グリッド resolution
+ * s                   : PNG を保存
  */
 'use strict';
 

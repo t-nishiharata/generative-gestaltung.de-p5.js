@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * draw the path of an intelligent agent
+ * the path of an intelligent agentを描画します。
  *
- * MOUSE
- * position x          : composition speed of the picture
+ * マウス
+ * 位置 x          : com位置 速度 of the picture
  *
- * KEYS
+ * キー
  * 1-3                 : draw mode
- * DEL/BACKSPACE       : clear display
- * s                   : save png
+ * DEL/BACKスペース       : clear display
+ * s                   : PNG を保存
  */
 'use strict';
 

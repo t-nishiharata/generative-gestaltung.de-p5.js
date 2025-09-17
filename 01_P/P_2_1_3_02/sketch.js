@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * draw a module made of lines in a grid
+ * a モジュール made of 線 in a グリッドを描画します。
  *
- * MOUSE
- * position x          : number of tiles horizontally
- * position y          : number of tiles vertically
+ * マウス
+ * 位置 x          : number of tiles horizontally
+ * 位置 y          : number of tiles vertically
  *
- * KEYS
+ * キー
  * 1-3                 : draw mode
- * s                   : save png
+ * s                   : PNG を保存
  */
 'use strict';
 

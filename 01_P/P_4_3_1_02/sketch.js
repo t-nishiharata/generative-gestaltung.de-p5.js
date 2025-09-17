@@ -19,10 +19,10 @@
 
 /**
  * pixel mapping. each pixel is translated into a new element (svg file).
- * take care to sort the svg file according to their greyscale value.
+ * take care to sort the svg file according to their greyスケール value.
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

@@ -20,15 +20,15 @@
 /**
  * pack as many cirlces as possible together
  *
- * MOUSE
- * press + position x/y : move area of interest
+ * マウス
+ * press + 位置 x/y : move area of interest
  *
- * KEYS
- * 1                    : show/hide circles
- * 2                    : show/hide lines
- * arrow up/down        : resize area of interest
+ * キー
+ * 1                    : show/hide 円
+ * 2                    : show/hide 線
+ * ↑/↓        : reサイズ area of interest
  * f                    : freeze process. on/off
- * s                    : save png
+ * s                    : PNG を保存
  */
 'use strict';
 

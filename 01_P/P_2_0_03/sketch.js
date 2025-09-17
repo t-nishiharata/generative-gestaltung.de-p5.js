@@ -20,15 +20,15 @@
 /**
  * drawing with a changing shape by draging the mouse.
  *
- * MOUSE
- * position x          : length
- * position y          : thickness and number of lines
+ * マウス
+ * 位置 x          : length
+ * 位置 y          : 太さ and number of 線
  * drag                : draw
  *
- * KEYS
- * 1-3                 : stroke color
- * del, backspace      : erase
- * s                   : save png
+ * キー
+ * 1-3                 : 線 色
+ * del, backスペース      : erase
+ * s                   : PNG を保存
  */
 'use strict';
 

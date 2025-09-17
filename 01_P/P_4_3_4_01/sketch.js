@@ -21,10 +21,10 @@
  * Pixel mapping, each pixel of an image is translated into an emoji icon.
  * The pixel RGB value is mapped with the nearest (average) RGB value of an emoji.
  * Mapping via a [k-dimensional tree data structure](https://github.com/ubilabs/kd-tree-javascript).
- * See also "P_emoji_icon_analyser" for how to calculate the average color of emoji.
+ * See also "P_emoji_icon_analyser" for how to calculate the average 色 of emoji.
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

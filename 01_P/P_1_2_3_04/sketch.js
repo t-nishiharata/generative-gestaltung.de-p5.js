@@ -18,14 +18,14 @@
 // limitations under the License.
 
 /**
- * generates a specific color palette and some random "rect-tilings"
+ * a specific 色 palette and some random "rect-tilings"を生成します。
  *
- * MOUSE
- * left click          : new composition
+ * マウス
+ * 左クリック          : new com位置
  *
- * KEYS
- * s                   : save png
- * c                   : save color palette
+ * キー
+ * s                   : PNG を保存
+ * c                   : カラーパレットを保存
  */
 'use strict';
 

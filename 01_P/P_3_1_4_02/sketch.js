@@ -22,14 +22,14 @@
  * All words with the same number of letters are grouped in a nested treemap.
  * Only words with less than 10 letters are stored.
  *
- * KEYS
- * r                   : toggle random mode
+ * キー
+ * r                   : 切り替え random mode
  * h                   : only horizontal rows
  * v                   : only vertical rows
  * b                   : both kind of rows
  * 1-9                 : switch on and off words with this number of letters
  * 0                   : show all words
- * s                   : save png
+ * s                   : PNG を保存
  */
 'use strict';
 

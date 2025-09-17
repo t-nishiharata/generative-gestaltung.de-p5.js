@@ -18,24 +18,24 @@
 // limitations under the License.
 
 /**
- * draw tool. shows how to draw with dynamic elements.
+ * tool. shows how to draw with dynamic elements.を描画します。
  * works only with an external tablet device!
  * browser support for the tablet driver seems to be fading out.
  * safari should work well. chrome doesn't support the tablet plugin.
  *
- * MOUSE
+ * マウス
  * drag                : draw
  *
  * TABLET
  * pressure            : saturation (in draw mode 3 only)
- * azimuth             : rotation of each element
- * altitude            : length of each element
+ * azimuth             : 回転 of each element
+ * Altitude            : length of each element
  *
- * KEYS
+ * キー
  * 1-3                 : draw mode
- * 6-0                 : colors
- * del, backspace      : clear screen
- * s                   : save png
+ * 6-0                 : 色s
+ * del, backスペース      : clear screen
+ * s                   : PNG を保存
  */
 'use strict';
 

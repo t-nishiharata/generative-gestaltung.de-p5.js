@@ -18,7 +18,7 @@
 // limitations under the License.
 
 /**
- * simple timelapse camera, after each intervalTime a picture is saved.
+ * simple timelapse camera, after each intervAltime a picture is saved.
  *
  */
 'use strict';

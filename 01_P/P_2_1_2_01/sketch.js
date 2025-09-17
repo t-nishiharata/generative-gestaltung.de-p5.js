@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * changing size and position of circles in a grid
+ * グリッド内の円の大きさと位置を変化させます。
  *
- * MOUSE
- * position x          : circle position
- * position y          : circle size
- * left click          : random position
+ * マウス
+ * 位置 x              : 円の位置
+ * 位置 y              : 円の大きさ
+ * 左クリック          : ランダム位置
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

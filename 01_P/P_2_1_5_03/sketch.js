@@ -18,20 +18,20 @@
 // limitations under the License.
 
 /**
- * Drawing tool for creating moire effect compositions using
- * rectangles of various widths, lengths, angles and colours.
+ * Drawing tool for creating moire effect com位置s using
+ * 四角形 of various widths, lengths, 角度s and colours.
  *
- * MOUSE
- * mouse               : place moire effect rectangle
+ * マウス
+ * mouse               : place moire effect 四角形
  *
- * KEYS
- * 1                   : set color to red
- * 2                   : set color to green
- * 3                   : set color to blue
- * 4                   : set color to black
- * arrow up            : increase rectangle width
- * arrow down          : decrease rectangle width
- * s                   : save png
+ * キー
+ * 1                   : set 色 to red
+ * 2                   : set 色 to green
+ * 3                   : set 色 to blue
+ * 4                   : set 色 to black
+ * arrow up            : 増やす 四角形 width
+ * arrow down          : 減らす 四角形 width
+ * s                   : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

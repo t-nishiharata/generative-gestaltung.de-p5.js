@@ -18,18 +18,18 @@
 // limitations under the License.
 
 /**
- * changing strokeweight and strokecaps on diagonals in a grid
+ * 線太さ and 線caps on diagonals in a グリッドを変化させます。
  *
- * MOUSE
- * position x          : left diagonal strokeweight
- * position y          : right diagonal strokeweight
- * left click          : new random layout
+ * マウス
+ * 位置 x          : left diagonal 線太さ
+ * 位置 y          : right diagonal 線太さ
+ * 左クリック          : new random layout
  *
- * KEYS
- * 1                   : round strokecap
- * 2                   : square strokecap
- * 3                   : project strokecap
- * s                   : save png
+ * キー
+ * 1                   : round 線cap
+ * 2                   : square 線cap
+ * 3                   : project 線cap
+ * s                   : PNG を保存
  */
 'use strict';
 

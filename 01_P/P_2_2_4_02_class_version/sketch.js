@@ -20,9 +20,9 @@
 /**
  * limited diffusion aggregation
  *
- * KEYS
- * 1             : toggle draw original position of circles
- * s             : save png
+ * キー
+ * 1             : 切り替え draw original 位置 of 円
+ * s             : PNG を保存
  */
 'use strict';
 

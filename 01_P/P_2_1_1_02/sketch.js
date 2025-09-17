@@ -18,20 +18,20 @@
 // limitations under the License.
 
 /**
- * changing strokeweight on diagonals in a grid with colors
+ * 線太さ on diagonals in a グリッド with 色sを変化させます。
  *
- * MOUSE
- * position x          : left diagonal strokeweight
- * position y          : right diagonal strokeweight
- * left click          : new random layout
+ * マウス
+ * 位置 x          : left diagonal 線太さ
+ * 位置 y          : right diagonal 線太さ
+ * 左クリック          : new random layout
  *
- * KEYS
- * s                   : save png
- * 1                   : round strokecap
- * 2                   : square strokecap
- * 3                   : project strokecap
- * 4                   : color left diagonal
- * 5                   : color right diagonal
+ * キー
+ * s                   : PNG を保存
+ * 1                   : round 線cap
+ * 2                   : square 線cap
+ * 3                   : project 線cap
+ * 4                   : 色 left diagonal
+ * 5                   : 色 right diagonal
  * 6                   : transparency left diagonal
  * 7                   : transparency right diagonal
  * 0                   : default

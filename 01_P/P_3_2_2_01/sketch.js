@@ -20,15 +20,15 @@
 /**
  * fontgenerator with dynamic elements
  *
- * MOUSE
- * position x          : curve rotation
- * position y          : curve height
+ * マウス
+ * 位置 x          : curve 回転
+ * 位置 y          : curve height
  *
- * KEYS
+ * キー
  * a-z                 : text input (keyboard)
- * del, backspace      : remove last letter
- * alt                 : toggle fill style
- * ctrl                : save png
+ * del, backスペース      : remove last letter
+ * Alt                 : 切り替え 塗り style
+ * Ctrl                : PNG を保存
  */
 
 var textTyped = 'Charles Mingus';

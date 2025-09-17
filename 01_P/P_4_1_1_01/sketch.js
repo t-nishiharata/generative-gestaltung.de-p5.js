@@ -20,14 +20,14 @@
 /**
  * cutting and multiplying an area of the image
  *
- * MOUSE
- * position x/y         : area position
- * left click           : multiply the area
+ * マウス
+ * 位置 x/y         : area 位置
+ * 左クリック           : multiply the area
  *
- * KEYS
- * 1-3                  : area size
- * r                    : toggle random area
- * s                    : save png
+ * キー
+ * 1-3                  : area サイズ
+ * r                    : 切り替え random area
+ * s                    : PNG を保存
  */
 'use strict';
 

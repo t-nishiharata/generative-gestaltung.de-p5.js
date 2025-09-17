@@ -18,16 +18,16 @@
 // limitations under the License.
 
 /**
- * fontgenerator with dynamic elements. letter ouline consist of linked agents.
+ * fontgenerator with dynamic elements. letter ou線 consist of linked agents.
  *
- * MOUSE
- * press + position x  : letter distortion
+ * マウス
+ * press + 位置 x  : letter distortion
  *
- * KEYS
+ * キー
  * a-z                 : text input (keyboard)
- * alt                 : freeze current state
- * del, backspace      : clear screen
- * ctrl                : save png
+ * Alt                 : freeze current state
+ * del, backスペース      : clear screen
+ * Ctrl                : PNG を保存
  */
 
 var typedKey = 'a';

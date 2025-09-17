@@ -18,23 +18,23 @@
 // limitations under the License.
 
 /**
- * draw tool. draw with a rotating element (svg file).
+ * tool. draw with a rotating element (svg file).を描画します。
  *
- * MOUSE
+ * マウス
  * drag                : draw
  *
- * KEYS
- * 1-4                 : switch default colors
+ * キー
+ * 1-4                 : switch default 色s
  * 5-9                 : switch brush element
- * delete/backspace    : clear screen
- * d                   : reverse direction and mirrow angle
- * space               : new random color
- * arrow left          : rotaion speed -
- * arrow right         : rotaion speed +
- * arrow up            : module size +
- * arrow down          : module size -
- * shift               : limit drawing direction
- * s                   : save png
+ * Delete/backスペース    : clear screen
+ * d                   : reverse direction and mirrow 角度
+ * スペース               : new random 色
+ * arrow left          : rotaion 速度 -
+ * arrow right         : rotaion 速度 +
+ * arrow up            : モジュール サイズ +
+ * arrow down          : モジュール サイズ -
+ * Shift               : limit drawing direction
+ * s                   : PNG を保存
  */
 'use strict';
 

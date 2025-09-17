@@ -19,16 +19,16 @@
 
 /**
  * Simple moire effect demonstration by moving, rotating
- * and scaling a shape of densely packed lines over
- * a background also consisting of densely packed lines.
+ * and scaling a shape of densely packed 線 over
+ * a 背景 also consisting of densely packed 線.
  *
- * MOUSE
- * mouseX              : overlay rotation or position x
+ * マウス
+ * mouseX              : overlay 回転 or 位置 x
  * mouseY              : overlay scaling
  *
- * KEYS
+ * キー
  * 1-2                 : switch draw mode
- * s                   : save png
+ * s                   : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

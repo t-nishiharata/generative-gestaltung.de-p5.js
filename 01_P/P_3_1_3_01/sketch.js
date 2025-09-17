@@ -19,14 +19,14 @@
 
 /**
  * analysing and sorting the letters of a text
- * changing the letters alpha value in relation to frequency
+ * the letters アルファ value in relation to frequencyを変化させます。
  *
- * MOUSE
- * position x          : interpolate between normal text and sorted position
+ * マウス
+ * 位置 x          : interpolate between normal text and sorted 位置
  *
- * KEYS
- * a                   : toggle alpha mode
- * s                   : save png
+ * キー
+ * a                   : 切り替え アルファ mode
+ * s                   : PNG を保存
  */
 'use strict';
 

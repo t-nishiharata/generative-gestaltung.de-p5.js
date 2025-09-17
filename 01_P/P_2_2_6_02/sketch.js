@@ -21,21 +21,21 @@
  * Drawing tool that moves a pendulum-esq contraption along paths drawn by the mouse.
  * Each joint of the pendulum leaves behind its own trail.
  *
- * MOUSE
+ * マウス
  * mouse               : click and drag to create a path to draw a pendulum along with
  *
- * KEYS
- * 1                   : toggle path line
- * 2                   : toggle pendulum
- * 3                   : toggle pendulum path
- * -                   : decrease speed
- * +                   : increase speed
- * arrow down          : decrease length of lines
- * arrow up            : increase length of lines
- * arrow left          : decrease joints
- * arrow right         : increase joints
- * del, backspace      : clear screen
- * s                   : save png
+ * キー
+ * 1                   : 切り替え path 線
+ * 2                   : 切り替え pendulum
+ * 3                   : 切り替え pendulum path
+ * -                   : 減らす 速度
+ * +                   : 増やす 速度
+ * arrow down          : 減らす length of 線
+ * arrow up            : 増やす length of 線
+ * arrow left          : 減らす joints
+ * arrow right         : 増やす joints
+ * del, backスペース      : clear screen
+ * s                   : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

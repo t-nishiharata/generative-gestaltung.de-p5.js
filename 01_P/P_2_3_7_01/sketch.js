@@ -20,24 +20,24 @@
 /**
  * Simple drawing tool where mouse input gets mirrored over multiple axes
  *
- * MOUSE
- * left click          : draw line
+ * マウス
+ * 左クリック          : draw 線
  *
- * KEYS
- * 1                   : toggle vertical mirror
- * 2                   : toggle horizontal mirror
- * 3                   : toggle diagonal mirror 1
- * 4                   : toggle diagonal mirror 2
- * 5-9                 : change color
- * 0                   : color white (eraser)
- * arrow up            : increase line weight
- * arrow down          : decrease line weight
- * arrow right         : increase number of tiles
- * arrow left          : decrease number of tiles
+ * キー
+ * 1                   : 切り替え vertical mirror
+ * 2                   : 切り替え horizontal mirror
+ * 3                   : 切り替え diagonal mirror 1
+ * 4                   : 切り替え diagonal mirror 2
+ * 5-9                 : change 色
+ * 0                   : 色 white (eraser)
+ * arrow up            : 増やす 線 太さ
+ * arrow down          : 減らす 線 太さ
+ * arrow right         : 増やす number of tiles
+ * arrow left          : 減らす number of tiles
  * d                   : show/hide mirror axes
- * del, backspace      : clear screen
+ * del, backスペース      : clear screen
  * g                   : start/stop gif recording
- * s                   : save png
+ * s                   : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

@@ -18,17 +18,17 @@
 // limitations under the License.
 
 /**
- * shows how to interpolate colors in different styles/ color modes
+ * shows how to interpolate 色s in different styles/ 色 modes
  *
- * MOUSE
- * left click          : new random color set
- * position x          : interpolation resolution
- * position y          : row count
+ * マウス
+ * 左クリック          : new random 色 set
+ * 位置 x          : interpolation resolution
+ * 位置 y          : row count
  *
- * KEYS
+ * キー
  * 1-2                 : switch interpolation style
- * s                   : save png
- * c                   : save color palette
+ * s                   : PNG を保存
+ * c                   : カラーパレットを保存
  */
 'use strict';
 

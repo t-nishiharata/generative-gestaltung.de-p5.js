@@ -18,14 +18,14 @@
 // limitations under the License.
 
 /**
- * changing colors and size by moving the mouse
+ * マウス操作で色とサイズを変化させます。
  *
- * MOUSE
- * position x          : size
- * position y          : color
+ * マウス
+ * 位置 x              : サイズ
+ * 位置 y              : 色
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

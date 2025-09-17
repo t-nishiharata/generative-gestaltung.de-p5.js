@@ -18,19 +18,19 @@
 // limitations under the License.
 
 /**
- * changing module color and positions in a grid
+ * グリッド内のモジュールの色と位置を変化させます。
  *
- * MOUSE
- * position x          : offset x
- * position y          : offset y
- * left click          : random position
+ * マウス
+ * 位置 x              : オフセット x
+ * 位置 y              : オフセット y
+ * 左クリック          : ランダム位置
  *
- * KEYS
- * 1-3                 : different sets of colors
- * 0                   : default
- * arrow up/down       : background module size
- * arrow left/right    : foreground module size
- * s                   : save png
+ * キー
+ * 1-3                 : カラーバリエーションの切り替え
+ * 0                   : 既定値に戻す
+ * ↑/↓                 : 背景モジュールのサイズ
+ * ←/→                 : 前景モジュールのサイズ
+ * s                   : PNG を保存
  */
 'use strict';
 

@@ -18,19 +18,19 @@
 // limitations under the License.
 
 /**
- * draw tool. shows how to draw with dynamic elements.
+ * tool. shows how to draw with dynamic elements.を描画します。
  *
- * MOUSE
+ * マウス
  * drag                : draw
  *
- * KEYS
- * 1-9                 : switch module
- * del, backspace      : clear screen
- * arrow up            : module size +
- * arrow down          : module size -
- * arrow left          : step size -
- * arrow right         : step size +
- * s                   : save png
+ * キー
+ * 1-9                 : switch モジュール
+ * del, backスペース      : clear screen
+ * arrow up            : モジュール サイズ +
+ * arrow down          : モジュール サイズ -
+ * arrow left          : step サイズ -
+ * arrow right         : step サイズ +
+ * s                   : PNG を保存
  */
 'use strict';
 

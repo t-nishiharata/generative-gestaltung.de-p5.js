@@ -18,17 +18,17 @@
 // limitations under the License.
 
 /**
- * changing number, color and strokeweight on diagonals in a grid
+ * number, 色 and 線太さ on diagonals in a グリッドを変化させます。
  *
- * MOUSE
- * position x          : diagonal strokeweight
- * position y          : number diagonals
- * left click          : new random layout
+ * マウス
+ * 位置 x          : diagonal 線太さ
+ * 位置 y          : number diagonals
+ * 左クリック          : new random layout
  *
- * KEYS
- * s                   : save png
- * 1                   : color left diagonal
- * 2                   : color right diagonal
+ * キー
+ * s                   : PNG を保存
+ * 1                   : 色 left diagonal
+ * 2                   : 色 right diagonal
  * 3                   : switch transparency left diagonal on/off
  * 4                   : switch transparency right diagonal on/off
  * 0                   : default

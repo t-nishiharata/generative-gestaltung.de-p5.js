@@ -18,22 +18,22 @@
 // limitations under the License.
 
 /**
- * draw tool. draws a specific module according to
+ * tool. draws a specific モジュール according toを描画します。
  * its east, south, west and north neighbours.
  * with switchable tileset
  *
- * MOUSE
- * drag left           : draw new module
- * drag right          : delete a module
+ * マウス
+ * drag left           : draw new モジュール
+ * drag right          : Delete a モジュール
  *
- * KEYS
+ * キー
  * 1-8                 : switch tileset
- * y, x, c, v, b       : switch colors
- * del, backspace      : clear screen
+ * y, x, c, v, b       : switch 色s
+ * del, backスペース      : clear screen
  * r                   : random tiles
- * s                   : save png
- * g                   : toogle. show grid
- * d                   : toogle. show module values
+ * s                   : PNG を保存
+ * g                   : toogle. show グリッド
+ * d                   : toogle. show モジュール values
  */
 'use strict';
 

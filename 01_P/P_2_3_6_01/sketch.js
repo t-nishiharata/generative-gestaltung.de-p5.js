@@ -18,18 +18,18 @@
 // limitations under the License.
 
 /**
- * draw tool. draws a specific module according to
+ * tool. draws a specific モジュール according toを描画します。
  * its east, south, west and north neighbours.
  *
- * MOUSE
- * drag left           : draw new module
- * drag right          : delete a module
+ * マウス
+ * drag left           : draw new モジュール
+ * drag right          : Delete a モジュール
  *
- * KEYS
- * del, backspace      : clear screen
- * g                   : toggle show grid
- * d                   : toggle show module values
- * s                   : save png
+ * キー
+ * del, backスペース      : clear screen
+ * g                   : 切り替え show グリッド
+ * d                   : 切り替え show モジュール values
+ * s                   : PNG を保存
  */
 'use strict';
 

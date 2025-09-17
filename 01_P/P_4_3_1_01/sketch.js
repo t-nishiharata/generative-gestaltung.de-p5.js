@@ -20,12 +20,12 @@
 /**
  * pixel mapping. each pixel is translated into a new element
  *
- * MOUSE
- * position x/y        : various parameters (depending on draw mode)
+ * マウス
+ * 位置 x/y        : various parameters (depending on draw mode)
  *
- * KEYS
+ * キー
  * 1-9                 : switch draw mode
- * s                   : save png
+ * s                   : PNG を保存
  */
 'use strict';
 

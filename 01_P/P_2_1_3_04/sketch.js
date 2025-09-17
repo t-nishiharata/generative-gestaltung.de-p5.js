@@ -18,17 +18,17 @@
 // limitations under the License.
 
 /**
- * changing positions of stapled circles in a grid
+ * 位置s of stapled 円 in a グリッドを変化させます。
  *
- * MOUSE
- * position x          : module detail
- * position y          : module parameter
+ * マウス
+ * 位置 x          : モジュール detail
+ * 位置 y          : モジュール parameter
  *
- * KEYS
+ * キー
  * 1-3                 : draw mode
- * arrow left/right    : number of tiles horizontally
- * arrow up/down       : number of tiles vertically
- * s                   : save png
+ * ←/→    : number of tiles horizontally
+ * ↑/↓       : number of tiles vertically
+ * s                   : PNG を保存
  */
 'use strict';
 

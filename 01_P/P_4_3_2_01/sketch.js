@@ -20,12 +20,12 @@
 /**
  * pixel mapping. each pixel is translated into a new element (letter)
  *
- * KEYS
- * 1                 : toogle font size mode (dynamic/static)
- * 2                 : toogle font color mode (color/b&w)
- * arrow up/down     : maximal fontsize +/-
- * arrow right/left  : minimal fontsize +/-
- * s                 : save png
+ * キー
+ * 1                 : toogle font サイズ mode (dynamic/static)
+ * 2                 : toogle font 色 mode (色/b&w)
+ * ↑/↓     : maximal fontサイズ +/-
+ * arrow right/left  : minimal fontサイズ +/-
+ * s                 : PNG を保存
  */
 'use strict';
 

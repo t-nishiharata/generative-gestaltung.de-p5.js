@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * generates specific color palettes
+ * 特定のカラーパレットを生成します。
  *
- * MOUSE
- * position x/y        : row and coloum count
+ * マウス
+ * 位置 x/y            : 行数と列数
  *
- * KEYS
- * 0-9                 : creates specific color palettes
- * s                   : save png
- * c                   : save color palette
+ * キー
+ * 0-9                 : 各種カラーパレットを生成
+ * s                   : PNG を保存
+ * c                   : カラーパレットを保存
  */
 'use strict';
 

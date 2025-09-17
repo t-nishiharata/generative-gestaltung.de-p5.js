@@ -19,18 +19,18 @@
 
 /**
  * analysing and sorting the letters of a text
- * connecting subsequent letters with lines
+ * connecting subsequent letters with 線
  *
- * MOUSE
- * position x          : interpolate between normal text and sorted position
+ * マウス
+ * 位置 x          : interpolate between normal text and sorted 位置
  *
- * KEYS
- * 1                   : toggle lines on/off
- * 2                   : toggle text on/off
+ * キー
+ * 1                   : 切り替え 線 on/off
+ * 2                   : 切り替え text on/off
  * 3                   : switch all letters off
  * 4                   : switch all letters on
  * a-z                 : switch letter on/off
- * CONTROL             : save png
+ * CONTROL             : PNG を保存
  */
 'use strict';
 

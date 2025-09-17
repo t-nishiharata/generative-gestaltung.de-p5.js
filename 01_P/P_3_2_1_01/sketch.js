@@ -21,12 +21,12 @@
 // FreeSans.otf (GNU FreeFont), see the readme files in data folder.
 
 /**
- * typo outline displayed as dots and lines
+ * typo out線 displayed as dots and 線
  *
- * KEYS
+ * キー
  * a-z                  : text input (keyboard)
- * backspace            : delete last typed letter
- * ctrl                 : save png
+ * backスペース            : Delete last typed letter
+ * Ctrl                 : PNG を保存
  */
 
 var textTyped = 'Type ...!';

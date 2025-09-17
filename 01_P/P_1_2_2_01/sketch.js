@@ -18,20 +18,20 @@
 // limitations under the License.
 
 /**
- * extract and sort the color palette of an image
+ * extract and sort the 色 palette of an image
  *
- * MOUSE
- * position x          : resolution
+ * マウス
+ * 位置 x          : resolution
  *
- * KEYS
+ * キー
  * 1-4                 : load different images
- * 5                   : no color sorting
- * 6                   : sort colors on hue
- * 7                   : sort colors on saturation
- * 8                   : sort colors on brightness
- * 9                   : sort colors on greyscale (luminance)
- * s                   : save png
- * c                   : save color palette
+ * 5                   : no 色 sorting
+ * 6                   : sort 色s on hue
+ * 7                   : sort 色s on saturation
+ * 8                   : sort 色s on brightness
+ * 9                   : sort 色s on greyスケール (luminance)
+ * s                   : PNG を保存
+ * c                   : カラーパレットを保存
  */
 'use strict';
 

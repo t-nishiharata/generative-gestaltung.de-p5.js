@@ -18,15 +18,15 @@
 // limitations under the License.
 
 /**
- * changing the color circle by moving the mouse.
+ * the 色 円 by moving the mouse.を変化させます。
  *
- * MOUSE
- * position x          : saturation
- * position y          : brighness
+ * マウス
+ * 位置 x          : saturation
+ * 位置 y          : brighness
  *
- * KEYS
+ * キー
  * 1-5                 : number of segments
- * s                   : save png
+ * s                   : PNG を保存
  */
 'use strict';
 

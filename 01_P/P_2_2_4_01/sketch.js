@@ -20,8 +20,8 @@
 /**
  * limited diffusion aggregation
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

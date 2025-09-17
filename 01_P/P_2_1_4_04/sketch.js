@@ -18,10 +18,10 @@
 // limitations under the License.
 
 /**
- * Create animated radial sliders
+ * animated radial slidersを作成します。
  *
- * MOUSE
- * left click               : create SliderRose
+ * マウス
+ * 左クリック               : create SliderRose
  *
  * CONTRIBUTED BY
  * [Joey Lee](http://jk-lee.com)

@@ -23,15 +23,15 @@
 /**
  * fontgenerator with static elements (svg files)
  *
- * MOUSE
- * position x          : module rotation
- * position y          : module size
+ * マウス
+ * 位置 x          : モジュール 回転
+ * 位置 y          : モジュール サイズ
  *
- * KEYS
+ * キー
  * a-z                 : text input (keyboard)
- * alt                 : toggle modules
- * del, backspace      : remove last letter
- * ctrl                : save png + pdf
+ * Alt                 : 切り替え モジュール
+ * del, backスペース      : remove last letter
+ * Ctrl                : PNG を保存 + pdf
  */
 
 var doSave = false;

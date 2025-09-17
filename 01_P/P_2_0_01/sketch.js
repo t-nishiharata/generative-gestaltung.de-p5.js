@@ -18,14 +18,14 @@
 // limitations under the License.
 
 /**
- * drawing a filled circle with lines.
+ * drawing a 塗りed 円 with 線.
  *
- * MOUSE
- * position x          : length
- * position y          : thickness and number of lines
+ * マウス
+ * 位置 x          : length
+ * 位置 y          : 太さ and number of 線
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

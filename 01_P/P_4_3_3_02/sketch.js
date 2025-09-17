@@ -20,11 +20,11 @@
 /**
  * generating a drawing with 3 brushes by analysing the pixels of a live video input
  *
- * KEYS
+ * キー
  * q                   : stop drawing
  * w                   : continue drawing
- * DEL/BACKSPACE       : clear display
- * s                   : save png
+ * DEL/BACKスペース       : clear display
+ * s                   : PNG を保存
  */
 
 'use strict';

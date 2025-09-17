@@ -20,9 +20,9 @@
 /**
  * image feedback process.
  *
- * KEYS
- * del, backspace      : clear screen
- * s                   : save png
+ * キー
+ * del, backスペース      : clear screen
+ * s                   : PNG を保存
  */
 'use strict';
 

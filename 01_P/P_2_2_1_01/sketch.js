@@ -18,14 +18,14 @@
 // limitations under the License.
 
 /**
- * draw the path of a stupid agent
+ * the path of a stupid agentを描画します。
  *
- * MOUSE
- * position x          : drawing speed
+ * マウス
+ * 位置 x          : drawing 速度
  *
- * KEYS
- * DEL/BACKSPACE       : clear display
- * s                   : save png
+ * キー
+ * DEL/BACKスペース       : clear display
+ * s                   : PNG を保存
  */
 'use strict';
 

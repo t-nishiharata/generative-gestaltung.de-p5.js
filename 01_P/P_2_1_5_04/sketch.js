@@ -18,22 +18,22 @@
 // limitations under the License.
 
 /**
- * Drawing tool for creating moire effect compositions using
+ * Drawing tool for creating moire effect com位置s using
  * smooth path of any length, width, smoothness and colour.
  *
- * MOUSE
+ * マウス
  * mouse               : click and drag to draw moire pattern path
  *
- * KEYS
- * 1                   : set color to red
- * 2                   : set color to green
- * 3                   : set color to blue
- * 4                   : set color to black
- * arrow right         : increase smoothness
- * arrow left          : decrease smoothness
- * arrow up            : increase rectangle width
- * arrow down          : decrease rectangle width
- * s                   : save png
+ * キー
+ * 1                   : set 色 to red
+ * 2                   : set 色 to green
+ * 3                   : set 色 to blue
+ * 4                   : set 色 to black
+ * arrow right         : 増やす smoothness
+ * arrow left          : 減らす smoothness
+ * arrow up            : 増やす 四角形 width
+ * arrow down          : 減らす 四角形 width
+ * s                   : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

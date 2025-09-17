@@ -18,13 +18,13 @@
 // limitations under the License.
 
 /**
- * Create montage of video with two root words to build limericks,
+ * montage of video with two root words to build limericks,を作成します。
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)
  *
  * VIDEO CREDITS
- * European Space Agency. (2016, December 23). The amazing adventures of Rosetta and Philae. Retrieved from http://m.esa.int/spaceinvideos/Videos/2016/12/The_amazing_adventures_of_Rosetta_and_Philae
+ * European スペース Agency. (2016, December 23). The amazing adventures of Rosetta and Philae. Retrieved from http://m.esa.int/スペースinvideos/Videos/2016/12/The_amazing_adventures_of_Rosetta_and_Philae
  */
 'use strict';
 

@@ -18,7 +18,7 @@
 // limitations under the License.
 
 /**
- * Use a video to check on/off a grid of checkboxes
+ * Use a video to check on/off a グリッド of checkboxes
  * Shout out to Dan Shiffman's checkbox mirror example
  *
  *

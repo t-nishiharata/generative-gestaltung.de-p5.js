@@ -19,19 +19,19 @@
 
 /**
  * analysing and sorting the words of a text by Part of Speech
- * connecting subsequent letters with lines.
+ * connecting subsequent letters with 線.
  *
- * MOUSE
- * position x          : interpolate between normal text and sorted position
+ * マウス
+ * 位置 x          : interpolate between normal text and sorted 位置
  *
- * KEYS
- * 1                   : toggle grey lines on/off
- * 2                   : toggle colored lines on/off
- * 3                   : toggle text on/off
+ * キー
+ * 1                   : 切り替え grey 線 on/off
+ * 2                   : 切り替え 色ed 線 on/off
+ * 3                   : 切り替え text on/off
  * 4                   : switch all letters off
  * 5                   : switch all letters on
  * a-z                 : switch letter on/off
- * ctrl                : save png
+ * Ctrl                : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

@@ -21,11 +21,11 @@
  * Animated font created from simple geometries
  *
  *
- * KEYS
+ * キー
  * A-Z                      : type letters
- * Arrow left/right         : toggle through draw modes
- * Arrow up/down            : increase/decrease point density
- * CONTROL                  : save png
+ * ←/→         : 切り替え through draw modes
+ * ↑/↓            : 増やす/減らす point 密度
+ * CONTROL                  : PNG を保存
  *
  * CONTRIBUTED BY
  * [Joey Lee](http://jk-lee.com)

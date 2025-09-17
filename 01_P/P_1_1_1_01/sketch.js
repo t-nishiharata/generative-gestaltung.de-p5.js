@@ -18,13 +18,13 @@
 // limitations under the License.
 
 /**
- * draw the color spectrum by moving the mouse
+ * the 色 spectrum by moving the mouseを描画します。
  *
- * MOUSE
- * position x/y        : resolution
+ * マウス
+ * 位置 x/y        : resolution
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 

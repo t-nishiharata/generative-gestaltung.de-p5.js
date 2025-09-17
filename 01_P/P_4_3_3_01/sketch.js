@@ -20,17 +20,17 @@
 /**
  * generating a drawing by analysing the pixels of a live video input
  *
- * MOUSE
- * position x          : drawing speed
- * position y          : diffusion
+ * マウス
+ * 位置 x          : drawing 速度
+ * 位置 y          : diffusion
  *
- * KEYS
+ * キー
  * arrow up            : number of curve points +
  * arrow down          : number of curve points -
  * q                   : stop drawing
  * w                   : continue drawing
- * DEL/BACKSPACE       : clear display
- * s                   : save png
+ * DEL/BACKスペース       : clear display
+ * s                   : PNG を保存
  */
 
 'use strict';

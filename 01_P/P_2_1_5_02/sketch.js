@@ -18,14 +18,14 @@
 // limitations under the License.
 
 /**
- * Place stacked circles of randomised heights at the mouse position
+ * Place stacked 円 of randomised heights at the mouse 位置
  * to create a moire effect drawing
  *
- * MOUSE
- * mouse              : place circle
+ * マウス
+ * mouse              : place 円
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

@@ -20,8 +20,8 @@
 /**
  * simple tabular overview of a video file.
  *
- * KEYS
- * s                  : save png
+ * キー
+ * s                  : PNG を保存
  */
 
 'use strict';

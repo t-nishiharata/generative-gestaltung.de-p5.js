@@ -18,18 +18,18 @@
 // limitations under the License.
 
 /**
- * draw tool. shows how to work with relations between elements.
+ * tool. shows how to work with relations between elements.を描画します。
  *
- * MOUSE
+ * マウス
  * drag                : draw
  *
- * KEYS
+ * キー
  * 1                   : draw mode 1 - fixed distance
  * 2                   : draw mode 2 - distance threshold
- * del, backspace      : clear screen
- * arrow up            : line length +
- * arrow down          : line length -
- * s                   : save png
+ * del, backスペース      : clear screen
+ * arrow up            : 線 length +
+ * arrow down          : 線 length -
+ * s                   : PNG を保存
  */
 'use strict';
 

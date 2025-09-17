@@ -22,9 +22,9 @@
  * if you use your own footage, make sure to rename the files or adjust the prefixes:
  * see the parameters of generateCollageItems()
  *
- * KEYS
+ * キー
  * 1-3                  : create a new collage (layer specific)
- * s                    : save png
+ * s                    : PNG を保存
  */
 'use strict';
 

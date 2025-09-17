@@ -20,12 +20,12 @@
 /**
  * counting the words of a text and display them in a treemap diagram.
  *
- * KEYS
- * r                   : toggle random mode
+ * キー
+ * r                   : 切り替え random mode
  * h                   : only horizontal rows
  * v                   : only vertical rows
  * b                   : both kind of rows
- * s                   : save png
+ * s                   : PNG を保存
  */
 'use strict';
 

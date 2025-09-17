@@ -19,18 +19,18 @@
 
 /**
  * analysing and sorting the letters of a text
- * drawing the letters frequency with lines and ellipses
+ * drawing the letters frequency with 線 and ellipses
  *
- * MOUSE
- * position x          : random angle
- * position y          : line length, size of ellipses, tracking
+ * マウス
+ * 位置 x          : random 角度
+ * 位置 y          : 線 length, サイズ of ellipses, tracking
  *
- * KEYS
- * 1                   : toggle alpha mode
- * 2                   : toggle drawing of lines
- * 3                   : toggle drawing of ellipses
- * 4                   : toggle drawing of text
- * s                   : save png
+ * キー
+ * 1                   : 切り替え アルファ mode
+ * 2                   : 切り替え drawing of 線
+ * 3                   : 切り替え drawing of ellipses
+ * 4                   : 切り替え drawing of text
+ * s                   : PNG を保存
  */
 'use strict';
 

@@ -18,16 +18,16 @@
 // limitations under the License.
 
 /**
- * draw tool. shows how to draw with dynamic elements.
+ * tool. shows how to draw with dynamic elements.を描画します。
  *
- * MOUSE
+ * マウス
  * drag                : draw with text
  *
- * KEYS
- * del, backspace      : clear screen
- * arrow up            : angle distortion +
- * arrow down          : angle distortion -
- * s                   : save png
+ * キー
+ * del, backスペース      : clear screen
+ * arrow up            : 角度 distortion +
+ * arrow down          : 角度 distortion -
+ * s                   : PNG を保存
  */
 'use strict';
 

@@ -18,21 +18,21 @@
 // limitations under the License.
 
 /**
- * draw tool. draw with a rotating line.
+ * tool. draw with a rotating 線.を描画します。
  *
- * MOUSE
+ * マウス
  * drag                : draw
  *
- * KEYS
- * 1-4                 : switch default colors
- * delete/backspace    : clear screen
- * d                   : reverse direction and mirrow angle
- * space               : new random color
- * arrow left          : rotaion speed -
- * arrow right         : rotaion speed +
- * arrow up            : line length +
- * arrow down          : line length -
- * s                   : save png
+ * キー
+ * 1-4                 : switch default 色s
+ * Delete/backスペース    : clear screen
+ * d                   : reverse direction and mirrow 角度
+ * スペース               : new random 色
+ * arrow left          : rotaion 速度 -
+ * arrow right         : rotaion 速度 +
+ * arrow up            : 線 length +
+ * arrow down          : 線 length -
+ * s                   : PNG を保存
  */
 'use strict';
 

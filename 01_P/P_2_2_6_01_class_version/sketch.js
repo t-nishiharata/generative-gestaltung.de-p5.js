@@ -21,17 +21,17 @@
  * A chain of linked pendulums. Each a little shorter and faster than the one it's linked to.
  * Each joint of the pendulum leaves behind its own trail.
  *
- * KEYS
- * 1                   : toggle pendulum
- * 2                   : toggle pendulum path
- * -                   : decrease speed relation
- * +                   : increase speed relation
- * arrow down          : decrease length of lines
- * arrow up            : increase length of lines
- * arrow left          : decrease joints
- * arrow right         : increase joints
- * del, backspace      : clear screen
- * s                   : save png
+ * キー
+ * 1                   : 切り替え pendulum
+ * 2                   : 切り替え pendulum path
+ * -                   : 減らす 速度 relation
+ * +                   : 増やす 速度 relation
+ * arrow down          : 減らす length of 線
+ * arrow up            : 増やす length of 線
+ * arrow left          : 減らす joints
+ * arrow right         : 増やす joints
+ * del, backスペース      : clear screen
+ * s                   : PNG を保存
  *
  * CONTRIBUTED BY
  * [Niels Poldervaart](http://NielsPoldervaart.nl)

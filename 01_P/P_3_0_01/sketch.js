@@ -18,16 +18,16 @@
 // limitations under the License.
 
 /**
- * changing the size and the position of a letter
+ * the サイズ and the 位置 of a letterを変化させます。
  *
- * MOUSE
- * position x          : size
- * position y          : position
+ * マウス
+ * 位置 x          : サイズ
+ * 位置 y          : 位置
  * drag                : draw
  *
- * KEYS
+ * キー
  * a-z                 : change letter
- * ctrl                : save png
+ * Ctrl                : PNG を保存
  */
 'use strict';
 

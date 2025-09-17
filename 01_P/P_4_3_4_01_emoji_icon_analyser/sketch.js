@@ -18,7 +18,7 @@
 // limitations under the License.
 
 /**
- * Analyses RGB pixel values of emoji icons to deduce the average colors.
+ * Analyses RGB pixel values of emoji icons to deduce the average 色s.
  * The results are written in a json file.
  */
 'use strict';

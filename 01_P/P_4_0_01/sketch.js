@@ -18,14 +18,14 @@
 // limitations under the License.
 
 /**
- * draw a grid of streched copies of an image
+ * a グリッド of streched copies of an imageを描画します。
  *
- * MOUSE
- * position x           : tile count horizontally
- * position y           : tile count vertically
+ * マウス
+ * 位置 x           : tile count horizontally
+ * 位置 y           : tile count vertically
  *
- * KEYS
- * s                    : save png
+ * キー
+ * s                    : PNG を保存
  */
 'use strict';
 

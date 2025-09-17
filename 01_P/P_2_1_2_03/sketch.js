@@ -18,13 +18,13 @@
 // limitations under the License.
 
 /**
- * changing size of circles in a rad grid depending the mouseposition
+ * マウス位置に応じて、グリッド内の円（または四角形）のサイズを変化させます。
  *
- * MOUSE
- * position x/y        : module size and offset z
+ * マウス
+ * 位置 x/y            : モジュールのサイズと Z 方向オフセット
  *
- * KEYS
- * s                   : save png
+ * キー
+ * s                   : PNG を保存
  */
 'use strict';
 
